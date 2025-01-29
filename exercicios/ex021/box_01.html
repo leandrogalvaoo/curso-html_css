@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/module_2.css">
+    <title>EX021 - Box-level</title>
+
+    <style>
+        .box_1 {
+            width: 420px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box_1">
+        <h1>Elementos box-level</h1>
+        <hr class="hr_2">
+        <p>Abaixo, elemntos dispostos como box box-level.</p>
+        <div class="box_1" style="width: 390px;">
+            <h2>Lorem Ipsum</h2>
+            <p><strong>Lorem ipsum</strong> dolor, <mark>sit amet</mark> consectetur adipisicing elit. Impedit repellat labore ipsam, ullam tempora molestias ratione quisquam reiciendis accusamus voluptates expedita, necessitatibus sit eligendi sed architecto velit suscipit asperiores deserunt.</p>
+            <p>Lorem ipsum dolor sit <strong>amet consectetur</strong> <mark>adipisicing elit</mark>. Cumque aut, veniam, ab exercitationem excepturi aliquam recusandae unde facere veritatis fugit suscipit, voluptate quidem repellendus repudiandae tenetur mollitia architecto sed nam.</p>
+            <h2>Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor, sit amet <mark>consectetur adipisicing</mark> elit. Impedit repellat labore ipsam, ullam tempora molestias ratione quisquam reiciendis accusamus voluptates expedita, necessitatibus sit eligendi sed architecto velit suscipit asperiores deserunt.</p>
+            <p><mark>Lorem ipsum</mark> dolor sit amet <strong>consectetur adipisicing</strong> elit. Cumque aut, veniam, ab exercitationem excepturi aliquam recusandae unde facere veritatis fugit suscipit, voluptate quidem repellendus repudiandae tenetur mollitia architecto sed nam.</p>
+        </div>
+        <p>Os elementos acima que ocupam a largura total (<strong>h2</strong>, <strong>p</strong>) da viewport que os aninha, sao box-level.</p>
+        <p>Os elementos acima que ocupam apenas um trecho (<strong>mark</strong>, <strong>strong</strong>) da viewport que os aninha, sao inline-level.</p>
+    </div>
+</body>
+</html>

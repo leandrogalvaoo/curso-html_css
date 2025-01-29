@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/module_2.css">
+    <title>EX020 - Exemplo de hover</title>
+    <style>
+        .box_1 {
+            width: 420px;
+        }
+
+        .p_2 {
+            font-weight: normal;
+            color: #000000;
+            display: none;
+        }
+
+        .p_1:hover {
+            font-weight: bolder;
+            color: #a52a2a;
+        }
+
+        .p_1:hover > .p_2 {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box_1">
+        <h1>Exemplo de hover</h1>
+        <hr class="hr_2">
+        <p>Hey!! Passe o mouse sobre o trecho, abaixo.</p>
+        <div class="p_1"><p>Passe o mouse em mim...</p>
+            <p class="p_2">...Isso, assim mesmo.</p>
+        </div>
+        <div></div>
+    </div>
+</body>
+</html>

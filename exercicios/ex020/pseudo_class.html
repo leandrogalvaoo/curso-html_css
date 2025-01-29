@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/module_2.css">
+    <title>EX020 - Pseudo classes</title>
+
+    <style>
+        .box_1 {
+            width: 420px;
+        }
+
+        .box_2, .box_3, .box_4 {
+            background-color: #00000045;
+            height: 125px;
+            width: 125px;
+            border: 2px solid #000000;
+            display: inline-block;
+            margin: 4px;
+            box-shadow: 4px 4px #000000;
+        }
+
+        .v_boxes > div:hover {
+            background-color: #000000b5;
+        }
+    </style>
+</head>
+<body>
+    <div class="box_1">
+        <h1>Pseudo classes</h1>
+        <hr class="hr_2">
+        <p>Hey!! Passe o mouse por cima das caixas.</p>
+        <div class="v_boxes">
+            <div class="box_2"></div>
+            <div class="box_3"></div>
+            <div class="box_4"></div>
+        </div>
+    </div>
+</body>
+</html>
