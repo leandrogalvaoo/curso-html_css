@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/module_2.css">
+    <title>EX022 - Imagem de fundo</title>
+
+    <style>
+        body {
+            background-image: url('imagens/wallpaper002.jpg');
+        }
+
+        .box_1 {
+            background-color: #cccccc;
+            width: 505px;
+            margin: auto;
+        }
+
+        .quadrado {
+            background-color: #00000045;
+            display: inline-block;
+            border: 2px solid black;
+            height: 150px;
+            width: 150px;
+            box-shadow: 4px 4px;
+            margin: 5px;
+        }
+
+        #q1 {
+            background-color: #7222bd;
+        }
+
+        #q2 {
+            background-image: linear-gradient(0deg, #ff7300, #ffee00);
+        }
+
+        #q3 {
+            background-image: url('imagens/pattern003.png');
+        }
+    </style>
+</head>
+<body>
+    <div class="box_1">
+        <h1>Imagem de fundo</h1>
+        <hr class="hr_2">
+        <div class="quadrado" id="q1"></div>
+        <div class="quadrado" id="q2"></div>
+        <div class="quadrado" id="q3"></div>
+    </div>    
+</body>
+</html>
