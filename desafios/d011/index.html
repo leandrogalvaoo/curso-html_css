@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DES011 - Desafio das imagens</title>
+
+    <style>
+        body {
+            margin: 0px;
+            background-color: #07073c;
+            background-image: url(imagens/espaco.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        #espaco {
+            position: relative;
+            height: 100vh;
+            width: auto;
+        }
+
+        #astronauta {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="espaco" >
+        <div id="astronauta">
+            <img style="height: 320px;" src="imagens/astronauta.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
