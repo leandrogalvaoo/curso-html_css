@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
+@font-face {
+    font-family: 'old_london';
+    src: url(../font/OldLondon.ttf);
+}
+
 .special-elite-regular {
     font-family: "Special Elite", serif;
     font-weight: 400;
@@ -32,8 +37,10 @@ header > p {
 header > h1 {
     color: #cccccc;
     padding-top: 30px;
+    margin-bottom: 15px;
     font-variant: small-caps;
     font-size: 7vw;
+    font-family: 'old_london';
 }
 
 header a {
@@ -64,13 +71,31 @@ section.normal > p {
     padding-left: 30px;
 }
 
+section#img_01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0px 0px 50px #000000;
+}
+
+section#img_02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0px 0px 50px #000000;
+}
+
 section.imagem {
-    background-color: #00000045;
+    background-color: #595959;
 }
 
 section.imagem > p {
     color: #CCCCCC;
-    background-color: #00000060;
+    background-color: #000000aa;
     max-width: 60vw;
     border-radius: 10px;
     padding-top: 10px;
