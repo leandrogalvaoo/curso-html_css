@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/module_2.css">
+    <title>EX023 - Agrupando tabela</title>
+
+    <style>
+        .box_1 {
+            width: 530px;
+        }
+
+        table {
+            border: 2px solid #000000;
+            border-collapse: collapse;
+            margin: auto;
+            width: 530px;
+            text-align: center;
+        }
+
+        td, th {
+            border: 1px solid #000000;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        th {
+            background-color: #787878;
+            color: #CCCCCC;
+        }
+
+        caption {
+            background-color: #787878;
+            padding: 5px;
+            border: 2px solid #000000;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #CCCCCC;
+        }
+
+        .c_3 {
+            background-color: #ff8c006a;
+        }
+    </style>
+</head>
+<body>
+    <div class="box_1">
+        <h1>Agrupando colunas</h1>
+        <hr class="hr_2">
+        <table>
+            <colgroup>
+                <col class="c_1">
+                <col class="c_2">
+                <col class="c_3">
+                <col class="c_4">
+            </colgroup>
+
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissao</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Claudio</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Helio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Medica</td>
+            </tr>
+            <tr>
+                <td>Otavio</td>
+                <td>F</td>
+                <td>22</td>
+                <td>Nutricionista</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
