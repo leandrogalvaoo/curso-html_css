@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/module_2.css">
+    <title>DES013 - Tabelas</title>
+
+    <style>
+        .box_1  {
+            width: 340px;
+        }
+
+        table {
+            border: 2px solid #000000;
+            border-collapse: collapse;
+            text-align: center;
+            margin: auto;
+            width: 200px;
+        }
+
+        td {
+            border: 1px solid #000000;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box_1">
+        <h1>Desafio da tabela pt1</h1>
+        <hr class="hr_2">
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
