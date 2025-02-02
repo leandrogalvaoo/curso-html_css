@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/module_4.css">
+    <title>Document</title>
+
+    <style>
+        .box_1  {
+            margin: auto;
+            height:calc(100vh - 40px);
+            background-image: url(imagens/fundo-madeira.jpg);
+            background-position: center center;
+            background-color: transparent;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        #cell > img {
+            position: absolute;
+            display: block;
+            width: 250px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #cell iframe {
+            background-color: aqua;
+            position: absolute;
+            display: block;
+            width: 216px;
+            height: 381px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+<div class="box_1">
+    <div class="nav">
+        <a target="screen" href="youtube.html">TH</a>
+    </div>
+    <div id="cell">
+        <img src="imagens/frame-iphone.png" alt="">
+        <iframe name="screen" src="" frameborder="0"></iframe>
+    </div>
+</div>
+</body>
+</html>
