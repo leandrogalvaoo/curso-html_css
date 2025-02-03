@@ -19,6 +19,21 @@
             position: relative;
         }
 
+        .nav {
+            float: right;
+        }
+
+        a > img {
+            height: 50px;
+            border-radius: 50%;
+            display: block;
+        }
+
+        a > img:hover {
+            height: 55px;
+            border: 1px solid #ffffff;
+        }
+
         #cell > img {
             position: absolute;
             display: block;
@@ -29,7 +44,7 @@
         }
 
         #cell iframe {
-            background-color: aqua;
+            background-color: #000000;
             position: absolute;
             display: block;
             width: 216px;
@@ -43,11 +58,16 @@
 <body>
 <div class="box_1">
     <div class="nav">
-        <a target="screen" href="youtube.html">TH</a>
+        <a class="home_icon" target="screen" href="screen/home.html"><img src="imagens/logo-home.jpg" alt=""></a>
+        <a target="screen" href="screen/github.html"><img src="imagens/logo-github.jpg" alt=""></a>
+        <a target="screen" href="screen/instagram.html"><img src="imagens/logo-instagram.jpg" alt=""></a>
+        <a target="screen" href="screen/twitter.html"><img src="imagens/logo-twitter.jpg" alt=""></a>
+        <a target="screen" href="screen/facebook.html"><img src="imagens/logo-facebook.jpg" alt=""></a>
+        <a target="screen" href="screen/youtube.html"><img src="imagens/logo-youtube.jpg" alt=""></a>
     </div>
     <div id="cell">
         <img src="imagens/frame-iphone.png" alt="">
-        <iframe name="screen" src="" frameborder="0"></iframe>
+        <iframe name="screen" src="screen/home.html" frameborder="0"></iframe>
     </div>
 </div>
 </body>
