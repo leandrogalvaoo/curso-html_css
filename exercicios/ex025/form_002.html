@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/module_4.css">
+    <title>EX025 - Formulario</title>
+
+    <style>
+        .box_1 {
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box_1">
+        <h1>Meu primeiro formulario</h1>
+        <hr class="hr_2">
+        <form action="cadastro.php" method="post" autocomplete="off">
+            <p>
+                <label for="iusu">Usuario</label>
+                <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" placeholder="Jonh Doe">
+            </p>
+            <p>
+                <label for="ipassw">Senha</label>
+                <input type="password" name="passw" id="ipassw" required minlength="8" placeholder="12345678">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="limpar">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
