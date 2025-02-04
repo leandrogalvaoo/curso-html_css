@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/module_4.css">
+    <title>EX025 - Formulario</title>
+
+    <style>
+        .box_1 {
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box_1">
+        <h1>Formulario</h1>
+        <hr class="hr_2">
+        <form action="cadastro.php" method="post" autocomplete="off">
+            <fieldset style="margin-bottom: 10px; font-family: monospace;">
+                <legend>Escolha uma cor</legend>
+                <label for="icor">Cor</label>
+                <input type="color" name="cor" id="icor" required>
+            </fieldset>
+            <fieldset style="margin-bottom: 10px; font-family: monospace;">
+                <legend>Nivel de satisfacao</legend>
+                <label for="inivel">Nivel</label>
+                <input type="range" name="nivel" id="inivel" required>
+            </fieldset>
+            <fieldset style="margin-bottom: 10px; font-family: monospace;">
+                <legend>Suba uma foto</legend>
+                <label for="ifoto">Foto</label>
+                <input type="file" name="foto" id="ifoto" required>
+            </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
