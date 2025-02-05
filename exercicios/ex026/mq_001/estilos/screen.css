@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/*Estilos para tela (media_screen)*/
+
+body {
+    background-color: #CCCCCC;
+    font-family: monospace;
+}
+
+.box_1 {
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+    margin-bottom: 15px;
+}
+
+header {
+    margin-bottom: 0px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin-bottom: 0px;
+}
+
+header > menu {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header > menu > ul {
+    padding: 0px;
+}
+
+header > menu > ul > li > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #5F9EA0;
+}
+
+header > menu > ul > li > a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #477779;
+}
+
+header > menu > ul > li > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #5F9EA0;
+}
+
+header > menu > ul > li {
+    margin-right: 10px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+header > h1, p {
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+}
+
+main > article > p {
+    text-align: justify;
+}
+
+footer {
+    margin-bottom: 0px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin-bottom: 0px;
+}

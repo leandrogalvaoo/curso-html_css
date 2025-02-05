@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*Estilos para impressora (media_print)*/
+
+body {
+    background-color: #ffffff;
+    font-family: monospace;
+}
+
+.box_1 {
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+    margin-bottom: 15px;
+}
+
+header {
+    margin-bottom: 0px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin-bottom: 0px;
+}
+
+header > menu {
+    display: none;
+}
+
+header > h1, p {
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+}
+
+article::after {
+    content: 'Esse conteudo foi impresso atraves do site www.leandroarchive.com';
+}
+
+main > article > p {
+    text-align: justify;
+}
+
+footer {
+    margin-bottom: 0px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin-bottom: 0px;
+}
