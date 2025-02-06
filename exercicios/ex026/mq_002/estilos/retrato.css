@@ -1,3 +1,11 @@
 @charset "UTF-8";
 
 /*Estilos para modo retrato (media_screen and (orientacion: portrait))*/
+
+.box_1 {
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}

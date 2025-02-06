@@ -7,12 +7,19 @@ body {
     font-family: monospace;
 }
 
+h1 {
+    background-color: #CCCCCC;
+    height: 50px;
+    text-align: center;
+}
+
 .box_1 {
     margin: auto;
     padding: 10px;
     border: 2px solid #000000;
     box-shadow: 4px 4px #000000;
     margin-bottom: 15px;
+    height: calc(100vh - 47px);
 }
 
 header {

@@ -1,3 +1,11 @@
 @charset "UTF-8";
 
 /*Estilos para modo paisagem (media_screen and (orientacion: landscape))*/
+
+.box_1 {
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
