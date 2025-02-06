@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/*Estilos gerais (media_all)*/
+
+body {
+    background-color: #CCCCCC;
+    font-family: monospace;
+}
+
+.box_1 {
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+    margin-bottom: 15px;
+    height: calc(100vh - 47px);
+}
+
+header {
+    margin-bottom: 0px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin-bottom: 0px;
+}
+
+header > menu {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header > menu > ul {
+    padding: 0px;
+}
+
+header > menu > ul > li > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #5F9EA0;
+}
+
+header > menu > ul > li > a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #477779;
+}
+
+header > menu > ul > li > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #5F9EA0;
+}
+
+header > menu > ul > li {
+    margin-right: 10px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+header > h1, p {
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+}
+
+main > article > p {
+    text-align: justify;
+}
+
+footer {
+    margin-bottom: 0px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin-bottom: 0px;
+}
+
+/*Estilos para modo retrato (media_screen and (orientacion: portrait))*/
+@media screen and (orientation: portrait) {    
+    .box_1 {
+        background-image: url(../imagens/cev-portrait.jpg);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+}
+
+/*Estilos para modo paisagem (media_screen and (orientacion: landscape))*/
+@media screen and (orientation: landscape) {
+    .box_1 {
+        background-image: url(../imagens/cev-landscape.jpg);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+}
