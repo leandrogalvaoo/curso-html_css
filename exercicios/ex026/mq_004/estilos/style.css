@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/*Estilos gerais (media_all)*/
+@media all {
+    body {
+        background-color: #CCCCCC;
+        font-family: monospace;
+    }
+
+    .box_1 {
+        margin: auto;
+        padding: 10px;
+        border: 2px solid #000000;
+        box-shadow: 4px 4px #000000;
+        margin-bottom: 15px;
+        height: calc(100vh - 47px);
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    header {
+        margin-bottom: 0px;
+        margin: auto;
+        padding: 10px;
+        border: 2px solid #000000;
+        margin-bottom: 0px;
+    }
+
+    main {
+        margin: auto;
+        padding: 10px;
+        margin-bottom: 0px;
+        border: 2px solid #000000;
+        box-shadow: 4px 4px #000000;
+    }
+
+    footer {
+        margin-bottom: 0px;
+        margin: auto;
+        padding: 10px;
+        border: 2px solid #000000;
+        margin-bottom: 0px;
+    }
+}
+
+/*Estilos para tablets ()*/
+@media screen {
+    
+}
+
+/*Estilos para impressoras ()*/
+@media print {
+    
+}
+
+/*Estilos para desktop ()*/
+@media screen {
+    
+}
+
+/*Estilos para tv ()*/
+@media screen {
+    
+}
