@@ -43,6 +43,7 @@ grandes telas: acima de 1200px
         margin-bottom: 0px;
         border: 2px solid #000000;
         box-shadow: 4px 4px #000000;
+        max-width: 350px;
     }
 
     footer {
