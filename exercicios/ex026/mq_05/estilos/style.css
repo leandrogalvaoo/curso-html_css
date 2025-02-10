@@ -29,6 +29,31 @@ hr {
     background-color: #000000;
 }
 
+#burguer {
+    border: 2px solid #000000;
+    background-color: #CCCCCC;
+    display: block;
+    text-align: center;
+    height: 25px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    color: #CCCCCC;
+    border: 2px solid #000000;
+    background-color: #000000;
+    display: block;
+    text-align: center;
+    height: 25px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+header > menu {
+    display: none;
+}
+
 header > menu > ul > li > a {
     text-decoration: none;
     color: #CCCCCC;
@@ -49,7 +74,7 @@ header > menu > ul > li {
     background-color: #000000;
     height: 25px;
     padding-top: 10px;
-    margin-top: 2px;
+    margin-top: 3px;
 }
 
 header > menu > ul > li:hover {
@@ -57,6 +82,7 @@ header > menu > ul > li:hover {
     background-color: #777777;
     height: 25px;
     padding-top: 10px;
+    border: 2px solid #000000;
 }
 
 main {

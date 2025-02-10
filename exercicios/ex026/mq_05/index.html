@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>EX026 - Media query</title>
 </head>
 <body>
     <header>
         <h1>Lorem Ipsum</h1>
         <hr>
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">list</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">link_1</a></li>
                 <li><a href="#">link_2</a></li>
@@ -29,5 +31,14 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non recusandae dolor est inventore veniam eligendi, veritatis similique. Sit consequuntur nobis tenetur eligendi ex dolores sint, at officiis, architecto rem repellendus?</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
