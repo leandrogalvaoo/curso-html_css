@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*
+pequenas telas: ate 600px
+celular: de 600px ate 768px
+tablet: de 768px ate 992px
+desktop: de 992px ate 1200px
+grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768.1px) {
+    #burguer {
+        display: none;
+    }
+
+    #itens {
+        display: block;
+    }
+
+    #itens > ul > li > a {
+        text-decoration: none;
+        color: #CCCCCC;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    #itens > ul > li > a:hover {
+        text-decoration: underline;
+        color: #000000;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    header > menu > ul > li {
+        display: inline-block;
+        text-align: center;
+        background-color: #000000;
+        height: 25px;
+        padding-top: 10px;
+        margin-top: 3px;
+    }
+    
+    header > menu > ul > li:hover {
+        display: inline-block;
+        background-color: #777777;
+        height: 25px;
+        padding-top: 10px;
+        border: 2px solid #000000;
+    }
+
+    main > article {
+        max-width: 700px;
+    }
+
+    header, main {
+        max-width: 1000px;
+    }
+}

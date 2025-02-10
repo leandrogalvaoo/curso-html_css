@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>EX026 - Media query</title>
 </head>
-<body>
+<body onresize="Landscape()">
     <header>
         <h1>Lorem Ipsum</h1>
         <hr>
@@ -18,6 +19,10 @@
                 <li><a href="#">link_2</a></li>
                 <li><a href="#">link_3</a></li>
                 <li><a href="#">link_4</a></li>
+                <li><a href="#">link_5</a></li>
+                <li><a href="#">link_6</a></li>
+                <li><a href="#">link_7</a></li>
+                <li><a href="#">link_8</a></li>
             </ul>
         </menu>
     </header>
@@ -37,6 +42,14 @@
                 itens.style.display = 'none'
             } else {
                 itens.style.display = 'block'
+            }
+        }
+
+        function Landscape() {
+            if (window.innerWidth >= 768.1) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
             }
         }
     </script>
