@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>DES016 - Tela de login</title>
 </head>
 <body>
-    
+    <main>
+        <section>
+            <div id="imagem">
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <form action="login.php" method="post">
+                    <label for="iuser"><i class="material-symbols-outlined">account_circle</i></label>
+                    <input type="text" name="user" id="iuser" required placeholder="@usuario"><br>
+                    <label for="ipass"><i class="material-symbols-outlined">account_circle</i></label>
+                    <input type="password" name="pass" id="ipass" required placeholder="********">
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
