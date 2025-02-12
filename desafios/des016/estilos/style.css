@@ -23,49 +23,22 @@ main {
 
 section {
     position: absolute;
-    top: calc(50% - 10px);
-    left: calc(50% - 10px);
+    top: calc(50% - 11px);
+    left: calc(50% - 11px);
     transform: translate(-50%, -50%);
     border: 2px solid #000000;
     margin: 10px;
-    width: 80vw;
-    height: 70vh;
+    width: 80%;
+    height: 80%;
     box-shadow: 4px 4px #000000;
 }
 
-section > #imagem {
+#imagem {
     background-image: url(../imagens/tomato.jpg);
-    height: 50%;
-    display: block;
-    background-position: center center;
     background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
-}
-
-section > #formulario {
+    background-color: #ff1212;
     height: 50%;
-    padding: 10px;
-}
-
-section > #formulario > h1 {
-    text-align: center;
-}
-
-section > #formulario > p {
-    text-align: justify;
-}
-
-hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 2px;
-    border: none;
-    background-color: #000000;
-}
-
-section #formulario input {
-    background-color: #ffffff;
-    border: none;
-    padding: 5px;
-    margin: 2px;
 }
