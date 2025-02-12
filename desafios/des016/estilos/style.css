@@ -28,14 +28,14 @@ section {
     transform: translate(-50%, -50%);
     border: 2px solid #000000;
     margin: 10px;
-    width: 80%;
-    height: 90%;
+    width: 300px;
+    height: 550px;
     box-shadow: 4px 4px #000000;
 }
 
 section > #imagem {
     background-image: url(../imagens/tomato.jpg);
-    height: 40%;
+    height: 50%;
     display: block;
     background-position: center center;
     background-attachment: fixed;
@@ -43,10 +43,8 @@ section > #imagem {
 }
 
 section > #formulario {
-    height: 60%;
+    height: 50%;
     padding: 10px;
-    display: block;
-
 }
 
 section > #formulario > h1 {
@@ -66,7 +64,6 @@ hr {
 }
 
 section #formulario input {
-    width: 50%;
     background-color: #ffffff;
     border: none;
     padding: 5px;
