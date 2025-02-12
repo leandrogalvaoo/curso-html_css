@@ -28,8 +28,8 @@ section {
     transform: translate(-50%, -50%);
     border: 2px solid #000000;
     margin: 10px;
-    width: 300px;
-    height: 550px;
+    width: 80vw;
+    height: 70vh;
     box-shadow: 4px 4px #000000;
 }
 
