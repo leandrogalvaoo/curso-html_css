@@ -8,16 +8,13 @@
 }
 
 body, html {
-    background-color: #ff1212;
+    height: 100vh;
 }
 
 main {
-    height: calc(100vh - 30px);
-    box-shadow: 4px 4px #000000;
-    background-color: #CCCCCC;
-    margin: 15px;
+    height: 100vh;
+    background-color: #ff1212;
     padding: 10px;
-    border: 2px solid #000000;
     position: relative;
 }
 
@@ -28,8 +25,8 @@ section {
     transform: translate(-50%, -50%);
     border: 2px solid #000000;
     margin: 10px;
-    width: 80%;
-    height: 80vh;
+    width: 80vw;
+    height: 85vh;
     box-shadow: 4px 4px #000000;
 }
 
@@ -40,5 +37,10 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ff1212;
+    height: 50%;
+}
+
+#formulario {
+    background-color: #CCCCCC;
     height: 50%;
 }
