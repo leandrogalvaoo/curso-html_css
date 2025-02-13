@@ -28,7 +28,7 @@ main {
 }
 
 #login > section {
-    padding: 10px;
+  padding: 3px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,7 +41,7 @@ main {
 #imagem {
     background-image: url(../imagens/tomato.jpg);
     background-attachment: fixed;
-    background-position: right bottom;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 50%;
@@ -49,4 +49,27 @@ main {
 
 #formulario {
     height: 50%;
+    padding: 5px;
+}
+
+#formulario p {
+    text-align: center;
+    font-size: 3vw;
+}
+
+#formulario h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 4vw;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 2px;
+    border: none;
+    background-color: black;
+    margin-right: 5px;
+    margin-left: 5px;
 }
