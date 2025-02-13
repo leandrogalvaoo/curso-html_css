@@ -13,7 +13,7 @@ body {
 }
 
 main {
-    background-image: linear-gradient(180deg, #ff1212,  #ffbebe, #ff1212);
+    background-color: #ff1212;
     padding: 10px;
     height: 100%;
     width: 100%;
@@ -33,12 +33,17 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 80%;
+    height: 70%;
     width: 70%;
     border: 2px solid black;
 }
 
 #imagem {
+    background-image: url(../imagens/tomato.jpg);
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 50%;
 }
 
