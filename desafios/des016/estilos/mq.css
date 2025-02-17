@@ -7,3 +7,31 @@ tablet: de 768px ate 992px
 desktop: de 992px ate 1200px
 grandes telas: acima de 1200px
 */
+
+@media screen and (min-width: 768.1px) and (max-width: 992px) {
+    #login > section > #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #login > section > #formulario {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 992.1px) {
+    #login > section > #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    #login > section > #formulario {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+}
