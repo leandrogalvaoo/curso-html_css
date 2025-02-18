@@ -7,6 +7,8 @@ body {
 div.container {
     background-color: #007e7e;
     display: flex;
+    flex-direction: column;
+    
     padding: 10px;
     border: 2px solid #000000;
     box-shadow: 4px 4px #000000;
@@ -15,7 +17,6 @@ div.container {
 div.item {
     background-color: #9090eb;
     border: 2px solid #000000;
-    flex: auto;
     text-align: center;
     margin: 5px;
 }
