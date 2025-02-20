@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    background-color: #cccccc;
+}
+
+div.container {
+    background-color: #007e7e;
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+}
+
+div.item {
+    background-color: #9090eb;
+    border: 2px solid #000000;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    width: 15px;
+    height: 20px;
+}
