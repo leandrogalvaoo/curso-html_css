@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-color: #cccccc;
+}
+
+div.container {
+    background-color: #007e7e;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+}
+
+div.item {
+    flex-basis: 150px;
+    background-color: #9090eb;
+    border: 2px solid #000000;
+    text-align: center;
+    margin: 5px;
+}
